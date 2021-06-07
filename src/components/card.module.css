@@ -1,0 +1,53 @@
+
+
+.cards {  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: url(../assets/680756.jpg) no-repeat center center fixed;
+    background-size: cover;
+   
+
+ }
+ 
+.card {
+   min-width: 15rem;
+   border: 2rem;
+}
+
+.cardHeader{
+    background: #f4f4f4;
+    padding: 0.5rem;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.pokeImg{
+    
+    height: 5em;
+  
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    margin:2rem;
+
+}
+
+.cardBody{
+    justify-content: center;
+    text-align: center;
+    background: cornsilk;
+    padding: 0.5rem;
+ 
+
+}
+.pokeName{
+    text-align: center;
+    background: #f4f4f4;
+    padding: 0.5rem;
+    
+   
+}
